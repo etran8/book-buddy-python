@@ -1,4 +1,6 @@
 # BookBuddy
+(Please note, this application does not function the way it was originally intended due to changes to OpenAI's API key length. The length of OpenAI's API key is now too long for the .env file to read, while including the SerpAPI and SQL keys)
+
 This is my capstone project at GMU. This BookBuddy application was developed to assist an aspiring author in promoting the content of her new book. The application offers three key functionalities: 
 (1) AI-powered image and text generation, 
 (2) web scraping to analyze search trends based on user-provided prompts.
@@ -8,13 +10,6 @@ The project was developed by a dedicated team including Alyssa Guzman, Alexander
 
 My contribution to the Capstone project: 
 I was responsible for developing and executing the database functions of the project, specifically handling the MySQL-based components that support the finance management section. This involved designing efficient database schemas, writing and optimizing queries, and ensuring seamless data retrieval and storage. Additionally, I worked to maintain data integrity and performance, contributing to a robust and scalable financial management system. 
-
-The below YouTube video presented by Alexander Roberts demonstrates the System Overview of the application. It describes how to use the functions of BookBuddy.
-
-https://youtu.be/X9Erd0EyMoI?si=sAnukxGZBiT-cX89&t=300
-
-The portion of the application I was responsible for in the video begins at 5:00 and provides an overview of the design and operational structure of the finance management system. 
-![image](https://github.com/user-attachments/assets/c177e788-28ac-4145-b44b-2f603867dc98)
 
 Please notes, running this application requires subscriptions to Google Search API (SerpApi) and Open API with having money in the OpenAI account. More information in the document below.
 
