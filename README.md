@@ -1,4 +1,5 @@
 # BookBuddy
+
 (Please note, this application does not function the way it was originally intended due to changes to OpenAI's API key length. The length of OpenAI's API key is now too long for the .env file to read, while including the SerpAPI and SQL keys)
 
 This is my capstone project at GMU. This BookBuddy application was developed to assist an aspiring author in promoting the content of her new book. The application offers three key functionalities: 
@@ -12,7 +13,6 @@ My contribution to the Capstone project:
 I was responsible for developing and executing the database functions of the project, specifically handling the MySQL-based components that support the finance management section. This involved designing efficient database schemas, writing and optimizing queries, and ensuring seamless data retrieval and storage. Additionally, I worked to maintain data integrity and performance, contributing to a robust and scalable financial management system. 
 
 Please notes, running this application requires subscriptions to Google Search API (SerpApi) and Open API with having money in the OpenAI account. More information in the document below.
-
 
 
 ----------
@@ -129,22 +129,8 @@ encryptoenv -a "OpenAIKey=InsertHere" "PASSWORD= InsertHere " "SerpAPI= InsertHe
 10.	Run the Code 
 11.	If errors occur, ensure the previous steps were followed correctly. Otherwise, the Book Buddy Landing page should appear:
  
-Section 3: System Overview
-
-Video Training on the System overview and functionality.
-	
-1.	Open https://youtu.be/X9Erd0EyMoI for the system overview training video. 
-1.1.	The video covers several topics including
-1.1.1.	Interface Walkthrough of the Book Buddy functionalities:
-1.1.1.1.	AI Content Generator 
-1.1.1.2.	Web Scraper 
-1.1.1.3.	Business Finance tracker 
-1.1.1.4.	Running a Report 
-1.1.2.	Button and link descriptions 
-1.1.3.	Example usage of the functions 
-1.1.4.	Destination file walkthrough
   	
-Section 4: Security
+Section 3: Security
 
 General Password Security
 a.	Requirements:
@@ -182,14 +168,14 @@ b.	Lock computer whenever leaving (any of the following):
 i.	Shortcut  (Windows key + L)
 ii.	Right click the Windows icon, select ‘Shut down or Sign out’, then left-click the most relevant option (sleep to resume work soon, shut down if work is done for a while, and restart if necessary).
 
-Section 5: Interface Design
+Section 4: Interface Design
 
 Wireframes of the Book Buddy Interface design. This section serves as a reference of the Book Buddy Interface architecture. 
 
 1.	Wireframes can be found here: https://www.figma.com/file/xndBfBaQ2EkMOfibfpiw2S/Book-Buddy-Interface-Design?type=design&node-id=0%3A1&mode=design&t=gnmZVvyk5w6OeOyA-1
 1.1.
   	
-Section 6: Troubleshooting and Help 
+Section 5: Troubleshooting and Help 
 
 Errors that you may encounter, plus some external resources. 
 
